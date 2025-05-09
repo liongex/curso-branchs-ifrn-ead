@@ -1,0 +1,26 @@
+Isac de Lima Feliciano
+104.265.784-06 / 20251ZL00130048
+$ git clone https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead
+$ git status
+$ cd curso-branchs-ifrn-ead
+$ git branch
+$ git add texto.txt
+$ git status
+$ git commit -m "Adição arquivo texto"
+$ git status
+$ git checkout -b feature-1
+$ git commit -am "Mudança de texto-feature-1"
+$ git switch main
+$ git commit -am "mudança de texto-main"
+$ git merge feature-1
+$ git commit -am "Resolução de conflito merge"
+$ git status
+$ head texto.txt
+$ git checkout -b add-comandos
+$ git add comandos.txt
+$ git commit -m "Adição arquivo comandos"
+$ git remote add origin-atividade https://github.com/liongex/curso-branchs-ifrn-ead.git
+$ git remote -v
+$git push -u origin-atividade main
+$git push -u origin-atividade add-comandos
+
